@@ -28,29 +28,29 @@ const Details = props => {
       <div className='profile-container'>
         <img
           className='profile-image'
-          src='https://i.postimg.cc/YCMFhzFK/271045300-733772971346315-1581853044690597953-n-modified-2.png'
+          src='https://i.postimg.cc/PrxZYbF5/279909538-2157570641077632-6582440009525145856-n.jpg'
           alt=''
         />
         <p>
-          Mainul Hasan <br />
-          📍 Dhaka, Bangladesh
+          Mostafizur Chowdhury<br />
+          Dhaka, Bangladesh
         </p>
       </div>
 
       <div className='body-details'>
         <p>
           <b>
-            58 <small>kg</small>
+            70 <small>kg</small>
           </b>
         </p>
         <p>
           <b>
-            5.6 <small>feet</small>
+            5.11 <small>feet</small>
           </b>
         </p>
         <p>
           <b>
-            22 <small>years</small>
+            26 <small>years</small>
           </b>
         </p>
       </div>
