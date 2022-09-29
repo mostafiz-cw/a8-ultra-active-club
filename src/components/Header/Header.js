@@ -10,9 +10,11 @@ const Header = () => {
           src='https://i.postimg.cc/MGDkYdc0/5eb3cb4bc8c459000443515c.png'
           alt=''
         />
-        <h3 className='gym-name'>GOLDS GYM</h3>
+        <h3 className='gym-name'>Power GYM</h3>
       </div>
-      <h4 className='body-text'>Select your exercise for today.</h4>
+      <h4 className='body-text'>Select your exercise for today & find total time</h4>
+
+
     </div>
   )
 }
