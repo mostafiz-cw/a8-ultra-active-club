@@ -1,7 +1,8 @@
 import './Details.css'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import { useState } from 'react'
+
+import { useEffect, useState } from 'react'
 
 const Details = props => {
   const { time } = props
@@ -9,7 +10,16 @@ const Details = props => {
   for (const plan of time) {
     total = total + parseInt(plan)
   }
-  const [timing, setTiming] = useState([])
+
+  const [timing, setTiming] = useState(0)
+  useEffect(() => {
+    if (timing) {
+      localStorage.setItem('brreak-time', timing)
+    } else {
+      const hello = localStorage.getItem('brreak-time')
+      setTiming(hello)
+    }
+  }, [timing])
 
   const notify = () => toast('Amazing, you did it!')
 
@@ -18,39 +28,39 @@ const Details = props => {
       <div className='profile-container'>
         <img
           className='profile-image'
-          src='https://i.postimg.cc/PrxZYbF5/279909538-2157570641077632-6582440009525145856-n.jpg'
+          src='https://i.postimg.cc/YCMFhzFK/271045300-733772971346315-1581853044690597953-n-modified-2.png'
           alt=''
         />
         <p>
-          Mostafizur Chowdhury <br />Dhaka, Bangladesh
+          Mainul Hasan <br />
+          📍 Dhaka, Bangladesh
         </p>
       </div>
 
       <div className='body-details'>
         <p>
           <b>
-            70 <small>kg</small>
+            58 <small>kg</small>
           </b>
         </p>
         <p>
           <b>
-            5.11 <small>feet</small>
+            5.6 <small>feet</small>
           </b>
         </p>
         <p>
           <b>
-            26 <small>years</small>
+            22 <small>years</small>
           </b>
         </p>
       </div>
 
       <p className='take-break-text'>Take a break.</p>
       <div className='take-break-container'>
-        <button onClick={e => setTiming(e.target.innerText)}>10</button>
-        <button onClick={e => setTiming(e.target.innerText)}>20</button>
-        <button onClick={e => setTiming(e.target.innerText)}>30</button>
-        <button onClick={e => setTiming(e.target.innerText)}>45</button>
-        {/* {localStorage.setItem('break-Time', JSON.stringify())} */}
+        <button onClick={e => setTiming(e.target.innerText)}>10S</button>
+        <button onClick={e => setTiming(e.target.innerText)}>20S</button>
+        <button onClick={e => setTiming(e.target.innerText)}>30S</button>
+        <button onClick={e => setTiming(e.target.innerText)}>45S</button>
       </div>
 
       <p className='take-break-text'>Exercise details</p>
