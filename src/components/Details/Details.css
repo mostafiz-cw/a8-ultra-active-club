@@ -34,16 +34,7 @@
 .take-break-container button:focus {
   background-color: green;
 }
-/* .body-details {
-  display: flex;
-  justify-content: space-around;
-  background-color: #e6e9e6;
-  width: 280px;
-  height: 70px;
-  border-radius: 8px;
-  margin-left: 30px;
-  align-items: center;
-} */
+
 .exercise-container,
 .body-details {
   display: flex;
