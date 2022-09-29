@@ -1,0 +1,52 @@
+[
+    {"id": "1",
+"name":"Pushups",
+"time": "20",
+"age": "18-22",
+"img": "https://media.istockphoto.com/photos/biracial-man-doing-push-ups-in-sportswear-on-fitness-mat-picture-id1094479308?k=20&m=1094479308&s=612x612&w=0&h=TbFOztOhPybbo6-HWxp9LM17Y0EYD08SMWLYweiLNr0=",
+"description": "Pushups are one of the most basic yet effective bodyweight moves because of the number of muscles that are recruited to perform them."
+
+},
+    {"id": "2",
+"name":"Squats",
+"time": "30",
+"age": "22-25",
+"img": "https://media.istockphoto.com/photos/home-workout-young-man-doing-squats-with-kettlebell-in-his-apartment-picture-id1269882697?k=20&m=1269882697&s=612x612&w=0&h=2Pau4LexjkHoeNGiyyAe0vrrm4umSPZ-V0fjMITYCag=",
+"description": "Squats increase lower body and core strength, as well as flexibility in your lower back and hips."
+
+
+},
+    {"id": "3",
+"name":"Dumbbell Rows",
+"time": "35",
+"age": "20-28",
+"img": "https://media.istockphoto.com/photos/shot-of-a-sporty-young-man-exercising-with-a-dumbbell-in-a-gym-picture-id1387256378?k=20&m=1387256378&s=612x612&w=0&h=gsKIIQdGi6R-6QKDN-AL7Nr9xs8iJ_7ecB8y1QmRn9g=",
+"description": "Start with a dumbbell in each hand. We recommend no more than 10 pounds for beginners."
+
+},
+    {"id": "4",
+"name":"Burpees",
+"time": "50",
+"age": "18-35",
+"img": "https://media.istockphoto.com/photos/burpees-outside-at-the-park-picture-id907915376?k=20&m=907915376&s=612x612&w=0&h=d1UYwlu8ZhnTYAo0NsW9X9_XMC28HD8W6z4O51jH7lc=",
+"description": "Burpees are a super-effective, whole-body move that provides great bang for your endurance and muscle strength."
+
+},
+    {"id": "5",
+"name":"Side Planks",
+"time": "55",
+"age": "15-45",
+"img": "https://media.istockphoto.com/photos/healthy-man-doing-side-plank-exercise-on-a-mat-picture-id509421844?k=20&m=509421844&s=612x612&w=0&h=NNV5UuXohMnkDpM3C98mnt4J1ShxKRB0oYjSETr6gps=",
+"description": "A healthy body requires a strong core at its foundation, so don’t neglect core-specific moves like the side plank."
+
+},
+    {"id": "6",
+"name":"Morning Run",
+"time": "45",
+"age": "12-55",
+"img": "https://images.pexels.com/photos/235922/pexels-photo-235922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+"description": "Many people like to start their day with a morning run for a variety of reasons. For example: The weather is often cooler in the morning."
+
+}
+
+]
